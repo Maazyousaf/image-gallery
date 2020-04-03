@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.bg{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* background: red; */
+    min-height: 100vh;
+}
+.nav{
+    background: #f67E7D;
+    display: grid;
+    grid-gap:10px;
+    height: 100vh;
+    /* justify-content: center; */
+    grid-template-rows:30% 40% 25%;
+    position: sticky;
+    top: 0;
+}
+.nav img{
+    width: 200px;
+    background: transparent;
+    /* padding: 3rem; */
+    /* border: 1px solid; */
+}
+.nav2{
+    /* border: 2px solid; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.nav3{
+    /* border: 2px solid; */
+   align-items: center;
+   /* align-content: space-between; */
+   display: grid;
+   justify-content: center;
+ 
+}
+.nav3 ul li{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.nav4{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+}
+.nav4 h2{
+    text-align: center;
+    margin-top: 70px;
+}
+.icon{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.icon ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.icon ul li{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 10px;
+    background: pink;
+
+}
+.icon ul li:hover{
+    background: cornsilk;
+}
+.pic{
+    /* background: green; */
+    min-height: 100vh;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-template-rows: 33.5% 33.5%; */
+    /* grid-gap:10px */
+
+}
+.read{
+    background-color: rgb(232, 238, 238);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    height: 30vh;
+    line-height: 2;
+
+}
+.read h1,p{
+    margin-left: 90px;
+    
+}
+.read h1{
+    font-size: 40px;
+}
+.main{
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+}
+.left{
+    /* background: green; */
+    width: 70%;
+    height: auto    ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.right{
+    /* background: yellow; */
+    width:30%;
+    height: 240vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p1{
+    /* border: 2px solid red; */
+    width:47%;
+    height: 60vh;
+    margin-top: 50px;
+}
+.p1 img{
+    width: 100%;
+    height: 40vh;
+}
+.p1 h3{
+    margin-top: 10px;
+}
+.p2{
+    /* border: 2px solid yellow; */
+    width:47%;
+    height: 60vh;
+    margin-top: 50px;
+}
+.p2 img{
+    width: 100%;
+    height: 40vh;
+}
+.p2 h3{
+    margin-top: 10px;
+}
+.cat{
+    margin-top: 50px;
+
+}
+.po{
+border-bottom: 1px solid;
+width: 300px;                                               
+margin-top: 30px;
+}
+.pp{
+    /* border: 1px solid; */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+.pp1{
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid red; */
+}
+.pp1 img{
+    width: 150px;
+    height: 12vh;
+}
+.pp1 h3{
+    margin-left: 170px;
+    margin-top: -80px;
+}
+
+.new{
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid black; */
+    background-image: url("cit.jpg");
+    background-size: 100% 100%;
+
+}
+.blc{
+    width: 100%;
+    height: 50vh;
+    background: black;
+    opacity: 0.6;
+}
+.arc{
+    margin-top: 50px;
+
+}
+
+.black{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cata{
+    /* background: brown; */
+    width: 25%;
+    margin-top: -250px;
+
+}
+.arch{
+    /* background: rgb(168, 118, 118); */
+    width: 25%;
+    margin-top: -250px;
+
+}
+
+.qu{
+    /* background: rgb(118, 168, 153); */
+    width: 25%;
+    margin-top: -250px;
+
+}
+.po{
+    border-bottom: 1px solid;
+    width: 300px;
+    margin-top: 30px;
+}
+.pi{
+        /* border-bottom: 1px solid; */
+        width: 300px;
+        margin-top: 40px;
+    
+}
